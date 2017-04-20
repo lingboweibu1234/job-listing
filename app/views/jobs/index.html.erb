@@ -2,13 +2,7 @@
   <%= link_to("Add a job", new_job_path, :class => "btn btn-default" ) %>
 </div>
 
-<div class= "search">
-  <%= search_form_for @search do |f| %>
-    <%= f.label :title_cont %>
-    <%= f.search_field :title_cont %>
-    <%= f.submit %>
-  <% end %>
-</div>
+
 
 <div class="dropdown clearfix pull-right">
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuDivider" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
