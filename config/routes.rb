@@ -11,9 +11,12 @@ Rails.application.routes.draw do
      end
    end
 
-    resources :jobs do
-      resources :resumes
-    end
+  resources :jobs do
+   collection do
+     get :search
+   end
+     resources :resumes
+  end
 
   root 'welcome#index'
 end
