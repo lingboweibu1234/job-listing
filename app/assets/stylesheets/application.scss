@@ -236,10 +236,10 @@
    }
    .section-headingnew {
 
-        margin-top: 460px;
+        margin-top: 200px;
         font-size: 20px;
        text-align: center;
-       margin-bottom: 30px;
+       margin-bottom: 60px;
 
    }
    .lead {
@@ -298,4 +298,20 @@ footer .footer-below {
 .col-centered{
   float:none;
   margin:0 auto ;
+}
+
+
+.do-box h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.do-box p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 40px 25px 100px 25px;
 }
