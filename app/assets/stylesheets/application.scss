@@ -173,7 +173,7 @@
      background-image: url("http://ww3.sinaimg.cn/large/006tNc79gy1fewpl89ufoj31hc0zk1kx.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     margin-bottom: 100px;
+     margin-bottom: 0px;
      margin-top: -20px;
 
 
@@ -184,6 +184,16 @@
 
      }
 
+     .box-inner1 {
+        padding: 50px 0px
+     }
+
+     .box-inner2 {
+         background-color: rgba(0, 0, 0, 0.39);
+        padding-top: 180px;//和顶部拉开距离
+        padding-bottom: 180px;
+
+     }
      .title {
 
          text-align: center;
@@ -228,15 +238,14 @@
    }
 
    .section-heading {
-       padding-top: 130px;
         font-size: 20px;
        text-align: center;
-       margin-bottom: 40px;
+       margin-bottom: 30px;
 
    }
    .section-headingnew {
 
-        margin-top: 200px;
+        margin-top: 100px;
         font-size: 20px;
        text-align: center;
        margin-bottom: 60px;
@@ -266,9 +275,11 @@ footer .footer-below {
 }
 
 .thumbnail {
+
     border: 0 none;
     box-shadow: none;
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 
 .container-fluid .jumbotron{
@@ -313,5 +324,8 @@ footer .footer-below {
     color: #666;
     letter-spacing: 1px;
     line-height: 22px;
-    margin: 40px 25px 100px 25px;
+    margin: 40px 25px 120px 25px;
 }
+.container{
+      padding: 100px 0px;
+  }
